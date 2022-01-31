@@ -24,4 +24,9 @@ public class Card {
     public void setValue(int value) {
         this.value = value;
     }
+
+    @Override
+    public String toString() {
+        return "Card{" + "name='" + name + '\'' + ", value=" + value + '}';
+    }
 }
